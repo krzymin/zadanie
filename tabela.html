@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa z linkami</title>
+</head>
+<body>
+
+    <img src="mapa.jpg" alt="Tutaj wybieraj linki" usemap="#mapa_kowalski">
+
+    <!-- Mapa linków -->
+    <map name="mapa_kowalski">
+        <!-- Brązowy okrąg (plik.zip) -->
+        <area shape="circle" coords="150,50,30" href="plik.zip" alt="Pobierz plik">
+        <!-- Niebieski trójkąt (tabela) -->
+        <area shape="poly" coords="150,100,130,140,170,140" href="INST_HTM_technik_2024.zip" target="_blank" alt="Tabela">
+        <!-- Żółty okrąg (formularz) -->
+        <area shape="circle" coords="150,190,30" href="formularz.html" target="_blank" alt="Formularz">
+        <!-- Zielony prostokąt (poczta) -->
+        <area shape="rect" coords="110,240,190,280" href="mailto:twoj_email@przyklad.pl" alt="Wyślij pocztę">
+        <!-- Czerwony prostokąt (strona startowa) -->
+        <area shape="rect" coords="100,300,200,360" href="z1_z6_twoje_nazwisko.html" target="_blank" alt="Strona startowa">
+    </map>
+</body>
+</html>
